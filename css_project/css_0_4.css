@@ -1,0 +1,132 @@
+html {
+    background-color: black;
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Mate SC', serif;
+    color: #b87a40;
+ 
+
+}
+
+a:hover {
+    color: #b87a40;
+    text-shadow: 
+    /*main color*/
+          0 0 7px #b87a40,
+          0 0 10px #b87a40,
+          0 0 21px #b87a40,
+    /*glow*/
+          0 0 42px #9c9792,
+          0 0 82px #9c9792,
+          0 0 92px #9c9792;
+}
+
+#grid {
+    display: grid;
+    /* border: 1px solid white; */
+    grid-template-columns: auto;
+    height: auto;
+ 
+}
+
+.grid_header {
+    display: flex;
+    grid-column-start: 1 ;
+    grid-column-end: 4;
+    padding-left: 30px;
+    background-color: #154551; 
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-left: 20%;   
+}
+
+.nav_logo {
+   padding-top: 8px;
+   margin-left: 10px;
+   margin-right: 10px; 
+}
+
+.gent_link{
+   margin-right: 60px;
+   margin-left: -60px;
+}
+
+.bnb_link {
+    margin-right: 20px;
+}
+
+.contact_link {
+    margin-right: 40px;
+}
+
+.grid_box_1{
+    display: flex;
+    grid-row: 2;
+    grid-column-start: 1 ;
+    grid-column-end: 4;
+
+
+    background-image: url(img/nest_bg_1900.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 1125px;
+    opacity: 70%;
+
+    
+}
+
+.grind_ender{
+    display: block;
+    grid-row: 3;
+  
+    padding-left: 30px;
+    background-color: #154551;
+    border: 1px solid yellow;
+}
+
+p {
+    
+    font-size: 25px;
+    font-family: 'Mate SC', serif;
+    color: #b87a40;  
+}
+
+p:hover {
+    color: #b87a40;
+    text-shadow: 
+    /*main color*/
+          0 0 7px #26ff00,
+          0 0 10px #26ff00,
+          0 0 21px #26ff00,
+    /*glow*/
+          0 0 50px #ffffff,
+          0 0 70px #ffffff,
+          0 0 102px #ffffff;
+
+}
+
+.box {
+    display: flex; 
+    align-content: center;   
+    justify-content: center;
+    background-color: #154551;
+    width: grid;
+    
+}
+
+.info_box_1, .info_box_2, .info_box_3, .info_box_4{
+    opacity: 0;
+
+ 
+}
+
+div:hover{
+    opacity: 1;
+}
