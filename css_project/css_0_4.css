@@ -1,9 +1,30 @@
 html {
-    background-color: black;
+    background-color: #154551;
+    height: 2000px;
     
 }
+p{
+    
+    font-size: 25px;
+    font-family: 'Mate SC', serif;
+    color: #b87a40;  
+}
 
-a {
+p:hover {
+    color: #b87a40;
+    text-shadow: 
+      /*main color*/
+      0 0 7px #b87a40,
+      0 0 10px #b87a40,
+      0 0 21px #b87a40,
+      /*glow*/
+      0 0 42px #9c9792,
+      0 0 82px #9c9792,
+      0 0 92px #9c9792;
+   
+}
+
+a{
     text-decoration: none;
     font-size: 25px;
     font-family: 'Mate SC', serif;
@@ -25,9 +46,47 @@ a:hover {
           0 0 92px #9c9792;
 }
 
+h1{
+    font-family: 'Mate SC', serif;
+    color: #b87a40;
+    margin-left: 13%;  
+}
+
+h1:hover {
+    color: #b87a40;
+    text-shadow: 
+    /*main color*/
+          0 0 7px #b87a40,
+          0 0 10px #b87a40,
+          0 0 21px #b87a40,
+    /*glow*/
+          0 0 42px #9c9792,
+          0 0 82px #9c9792,
+          0 0 92px #9c9792;
+}
+
+h3{
+    font-family: 'Mate SC', serif;
+    color: #b87a40;  
+}
+
+h3:hover {
+    color: #b87a40;
+    text-shadow: 
+    /*main color*/
+          0 0 7px #b87a40,
+          0 0 10px #b87a40,
+          0 0 21px #b87a40,
+    /*glow*/
+          0 0 42px #9c9792,
+          0 0 82px #9c9792,
+          0 0 92px #9c9792;
+}
+
+
 #grid {
     display: grid;
-    /* border: 1px solid white; */
+    /* border: 1px solid #b87a40; */
     grid-template-columns: auto;
     height: auto;
  
@@ -39,6 +98,9 @@ a:hover {
     grid-column-end: 4;
     padding-left: 30px;
     background-color: #154551; 
+    border-bottom: 1px solid #b87a40;
+    position: fixed; left: 0; top: 0;
+    width: 100%;
 }
 
 .navigation {
@@ -66,6 +128,7 @@ a:hover {
     margin-right: 40px;
 }
 
+
 .grid_box_1{
     display: flex;
     grid-row: 2;
@@ -73,60 +136,237 @@ a:hover {
     grid-column-end: 4;
 
 
-    background-image: url(img/nest_bg_1900.jpg);
+    background-image:linear-gradient(180deg,
+                        rgba(0,0,0,0.3)0%,
+                     rgba(0,0,0,0.8)140%), 
+                  url(img/nest_bg_1900.jpg);
+    
+    
     background-size: auto;
     background-repeat: no-repeat;
-    height: 1125px;
-    opacity: 70%;
-
-    
-}
-
-.grind_ender{
-    display: block;
-    grid-row: 3;
+    height: 600px;
   
+}
+    
+.box_Text_intro{
+    display: flex;
+    height: fit-content;
+    position: relative;
+      left: 20%;
+      top: 35%;
+      right: 50%;
+      bottom: 50%;
+      text-align: center;   
+}
+
+.contact_button , .content_button_1 , .content_button_2{
+    border: 2px Solid #b87a40;
+    background-color: #154551;
+    border-radius: 25%;
+}
+    
+
+
+.grid_mid{
+    display: flex;
+    grid-row: 4;
+    grid-column-start:1;
+    grid-column-end: 4;
     padding-left: 30px;
-    background-color: #154551;
-    border: 1px solid yellow;
+    background-color: #154551; 
+    height: auto;
+    /* border: 1px solid #b87a40; */
+    border-top:1px solid#b87a40;
 }
 
-p {
+.up_mid_text{
+    display: flex;
+    position: relative;
+    left: 35%;
+    top: 7%;
+    right: 50%;
+    bottom: 50%;
+    text-align: center;   
+}
+
+.grid_mid_content{
+    display: flex;
+    grid-row: 5;
+    grid-column-start:1;
+    grid-column-end: 4;
+    padding-left: 30px;
+    background-color: #154551; 
+    height: auto;
+}
+
+.content_box_1 , .content_box_2{
+    /* border: 1px solid #b87a40; */
+    margin-top: 5%;
+    margin-left: 12.5%;
+    padding-bottom: 10%;
     
-    font-size: 25px;
-    font-family: 'Mate SC', serif;
-    color: #b87a40;  
-}
-
-p:hover {
-    color: #b87a40;
-    text-shadow: 
-    /*main color*/
-          0 0 7px #26ff00,
-          0 0 10px #26ff00,
-          0 0 21px #26ff00,
-    /*glow*/
-          0 0 50px #ffffff,
-          0 0 70px #ffffff,
-          0 0 102px #ffffff;
-
-}
-
-.box {
-    display: flex; 
-    align-content: center;   
-    justify-content: center;
-    background-color: #154551;
-    width: grid;
     
 }
 
-.info_box_1, .info_box_2, .info_box_3, .info_box_4{
-    opacity: 0;
 
- 
+.content_foto_1{
+    display: flex;
+    border: 2px solid #b87a40;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
-div:hover{
-    opacity: 1;
+.content_foto_2{
+    display: flex;
+    border: 2px solid #b87a40;
+    border-radius: 50%;
+    overflow: hidden;
 }
+
+.content_text_1{
+    /* border: 1px solid #b87a40; */
+    padding-left: 12%;
+    
+}
+
+.content_text_2{
+    /* border: 1px solid #b87a40; */
+    padding-left: 35%;
+}
+/* styling out of contact_button*/
+.content_button_1{
+    margin-left: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.content_button_2{
+    margin-left: 34%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -2%;
+}
+
+.grid_mid_content_2{
+    display: flex;
+    grid-row: 6;
+    grid-column-start:1;
+    grid-column-end: 4;
+    padding-left: 30px;
+    background-color: #154551; 
+    height: auto;
+}
+
+.content_box_3{
+     /* border: 1px solid #b87a40; */
+     display: block;
+     margin-left: 12.5%;
+     margin-top: 5%;
+}
+
+.content_foto_3{
+    display: flex;
+    border: 2px solid #b87a40;
+    border-radius: 25%;
+    overflow: hidden;  
+}
+
+.content_in_content_1{
+    background-color: #154551;
+    border: 2px solid #b87a40;
+    margin-top: 25%;
+    margin-left: -10%; 
+    border-radius: 25%; 
+    height: 300px;
+    width: 250px;  
+    width: fit-content;
+}
+
+li{
+    list-style-type: none;
+    margin-left: -10%;
+}
+
+.content_in_content_text_1{
+    display: flex;
+    
+    
+}
+
+.content_in_content_text_2{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+a.content_in_content_button_1{ 
+   display: flex;
+   margin-left: 2% ;
+   margin-top: -2%;
+   padding-left: 5%;
+   padding-right: 5%;
+   margin-bottom: 5%;
+  
+}
+
+a.content_in_content_button_2{ 
+    display: flex;
+    margin-left: 22% ;
+    margin-top: -30%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    
+   
+}
+
+a.content_in_content_button_3{ 
+    display: flex;
+    margin-left: 62% ;
+    margin-top: -31%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+   
+}
+
+
+.button_fix_1{
+    margin-top: 15px;
+   
+}
+
+.button_fix_2{
+ margin-top: 10px;
+ margin-left: 17%;
+}
+
+.button_fix_3{
+    margin-top: 15px;
+    margin-left: 17%;
+}
+
+hr{
+    
+        height: 2px;
+        color: #b87a40;
+        background-color: #b87a40;
+        border: none;
+    
+}
+
+.grid_mid_content_3{
+    display: flex;
+    grid-row: 7;
+    grid-column-start:1;
+    grid-column-end: 4;
+    padding-left: 30px;
+    background-color: #ffffff; 
+    height: auto;
+    
+}
+
