@@ -2,6 +2,7 @@ html {
     background-color: #154551;
     height: 2000px;
     
+    
 }
 p{
     
@@ -89,6 +90,7 @@ h3:hover {
     /* border: 1px solid #b87a40; */
     grid-template-columns: auto;
     height: auto;
+    
  
 }
 
@@ -101,6 +103,7 @@ h3:hover {
     border-bottom: 1px solid #b87a40;
     position: fixed; left: 0; top: 0;
     width: 100%;
+    z-index: 2;
 }
 
 .navigation {
@@ -145,6 +148,7 @@ h3:hover {
     background-size: auto;
     background-repeat: no-repeat;
     height: 600px;
+    
   
 }
     
@@ -169,7 +173,7 @@ h3:hover {
 
 .grid_mid{
     display: flex;
-    grid-row: 4;
+    grid-row: 3;
     grid-column-start:1;
     grid-column-end: 4;
     padding-left: 30px;
@@ -411,8 +415,7 @@ a.content_in_content_button_3{
     background-color: #154551;
     border-radius: 25%;
     overflow: hidden;
-    height: 337px;
-    
+    height: 332px;  
     
 }
 
@@ -486,6 +489,7 @@ a.content_in_content_button_3{
     height: auto;
     margin-top: 5%;
     margin-left: 10%;
+    margin-bottom: 5%;
 
 }
 
@@ -494,8 +498,8 @@ a.content_in_content_button_3{
     grid-row: 11;
     grid-column-start:1;
     grid-column-end: 4;
-    padding-left: 30px;
-    background-color: #85c2d1; 
+    margin-left: 3%;
+    background-color: #154551; 
     height: auto;
 }
 
