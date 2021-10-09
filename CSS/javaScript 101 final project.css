@@ -1,0 +1,7 @@
+.real-input { 
+    border: 0;
+    border-bottom: 3px solid red;
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+  }

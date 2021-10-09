@@ -1,5 +1,6 @@
 // Dont Repeat Yourself Functions()
 
+/*
 const age = 31;
 
 if(age >= 18) { // if greather or equal to
@@ -17,6 +18,7 @@ if( secondAge <= 21) {
     console.log(`u are ${secondAge} u cant drink alcoholz!`)
     
 }
+*/
 
 /*
 
@@ -29,8 +31,19 @@ function addNumbers() {
 
 // Re use Code
 
-function ageCheck(age) {
-    let age = prompt("what is your age?");
-if(age <= 18)
+function addNumbers(num1, num2) {  // function name parrameter
+    const total = Number(num1)+ Number(num2); //  name  parrameter + parrameter
+    return total; 
     
 }
+
+const addedTotal = addNumbers(1, 9);  // name = function num1 + num2 
+
+function greeting(name) {
+    console.log(`Hello ${name}`);
+}
+
+typeof(addNumbers); // function
+
+typeof(addNumbers(1, 9)); // number because its executing a number
+
