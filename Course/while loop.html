@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>while loop</title>
+</head>
+<body>
+    
+    <script>
+       /* while(somethingIsTrue) { // it loops till something its false 
+            // execute this code
+        } */
+        
+        /*
+        let num =0; // param 0
+        while(num  < 100) { // while num is less 100  BreakPoint
+            console.log(num); // log num
+            num++; // add plus 1 at num to reach breakPoint
+        }
+
+        while(true) { // while true
+            let name = prompt("what is your name?") // name prompt
+            if(name === "Colin") { // if name is squal Colin
+                break; // Break loop
+            }
+            console.log("wrong name"); // log the wrong names
+        }
+        */
+
+        alert("You are beginning to start a Guess Game") // Welcome
+
+        let name = prompt("What is your name?"); // ask Name
+        console.log(`Hello ${name}`); // Greeting
+
+        let num = Math.floor(Math.random() *100); // create a random number
+        console.log(num); // log number
+        let g = prompt("Pick a number between 0 and 100") //ask for user input
+        let nG = Number();
+        console.log(g)
+        guess(prompt); // start function
+
+
+       function guess() { // function guess for num
+        while(num < 100){
+        if( g === num) ;
+         console.log(`Congradulation ${name}, Its the right Guess!.`);
+         break;
+        }
+        while (false){
+            if( g > num);
+            console.log("to")
+        }
+    }
+    
+        
+       
+
+    
+
+
+       
+       
+
+    </script>
+</body>
+</html>
