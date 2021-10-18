@@ -28,33 +28,45 @@
             console.log("wrong name"); // log the wrong names
         }
         */
-
-        alert("You are beginning to start a Guess Game") // Welcome
-
-        let name = prompt("What is your name?"); // ask Name
-        console.log(`Hello ${name}`); // Greeting
-
-        let num = Math.floor(Math.random() *100); // create a random number
-        console.log(num); // log number
-        let g = prompt("Pick a number between 0 and 100") //ask for user input
-        let nG = Number();
-        console.log(g)
-        guess(prompt); // start function
-
-
-       function guess() { // function guess for num
-        while(num < 100){
-        if( g === num) ;
-         console.log(`Congradulation ${name}, Its the right Guess!.`);
-         break;
-        }
-        while (false){
-            if( g > num);
-            console.log("to")
-        }
-    }
-    
+            alert("You are beginning to start a Guess Game");
+            const name = prompt("What is your name?"); // ask Name
+            alert(`Hello ${name}`); // Greeting
+            const num = Math.floor(Math.random() *100); // create a random number
+            console.log(num); // log random number
+         
         
+            guessGame();
+
+        function guessGame(){
+            while(true){
+                var g = Number(prompt("Guess the number between 0 and 100")); //ask for user input
+                if(g == num){ // if g is higher than num then
+                    alert(`Congradulations ${name} the number ${num} is the right guess`); // alert temp lit 
+                    break;
+                 
+            }else if(g < num){ // if g is lower then num then
+                alert(`${g} is to Low ${name}`); // alert temp lit
+                
+            }else if(g > num) // if g is equal to num 
+                alert(`${g} is to high ${name}`); // alert temp lit
+               
+                
+                       
+            }
+        }
+        guessGame;
+            
+            
+        
+        
+    
+    
+      
+        
+    
+    
+      
+    
        
 
     
