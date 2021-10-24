@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Functions</title>
+</head>
+<body>
+    <script>
+
+    // keep in mind that when u use the word function the this keyword will exist inside the object with out it can be used global
+    
+    // function myName() {
+    //     if this.name......
+    // } else this.....{
+
+    // }
+    
+
+     
+    //  const hello = () => {
+    //      console.log("Hello here")
+    //  }
+    //  hello()
+    
+
+     
+    //  const hello = () => " Hello from one line function"
+    //  hello()
+     
+
+    //  const myNewGreeting = (name) => console.log(`Welcome, ${name}`)
+    //  myNewGreeting("Colin")
+    /*
+    function myName(name) {
+        const person ='eva';
+        while(true){
+            break;
+        }
+        if (person == "Colin"){
+            console.log("Hello Colin");
+            
+        } else {
+            console.log("Hello not Colin");
+            
+        }
+    }
+    myName()
+    
+
+    const anonymousFunction = function(num) {
+        num = 10;
+        newNum = 15;
+        this.num = num + newNum;
+        console.log(this.num);
+    }
+
+    anonymousFunction();
+
+    const arrowFunc1 = (name) => { // global use of this
+        name = 'Colin';
+        age = "30";
+        this.name = `Hallo ${name}, ` + `${age} years old.`;
+        console.log(this.name);
+    }
+
+    arrowFunc1();
+    */
+
+    const arrowFunc2 = () => "one line function";
+    arrowFunc2();  
+
+    
+    </script>
+</body>
+</html>

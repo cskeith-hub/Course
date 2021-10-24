@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try/Catch an finally with errors</title>
+</head>
+<body>
+    <script>
+         // try and catch make sure that you dont get stuck in errors
+      const num = 10;
+      try { // try what code is inside the {}
+         //functionThatDoesntExist() // function not defined
+         //throw "Colins custom error";
+         //console.log("a thing in here"); // while not log because above there is an error so it catch the error
+         num = num + 20
+      } catch(error){ // catch error 
+          console.log("Error Logging:", error) // and console log the error
+      } finally { // not use that often
+         console.log("the final number is", num);
+      }
+
+      console.log("Show me!!!") // this code should styill execute properly
+
+      // its not often used in nesting..
+    
+ 
+    </script>
+</body>
+</html>

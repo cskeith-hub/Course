@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making a game! random number guess</title>
+</head>
+<body>
+    <script>
+
+            alert("You are beginning to start a Guess Game");
+            const name = prompt("What is your name?"); // ask Name
+            alert(`Hello ${name}`); // Greeting
+            const num = Math.floor(Math.random() *100); // create a random number
+            console.log(num); // log random number
+         
+        
+            guessGame();
+
+            function guessGame(){
+            while(true){
+                var g = Number(prompt("Guess the number between 0 and 100")); //ask for user input
+                if(g == num){ // if g is higher than num then
+                    alert(`Congradulations ${name} the number ${num} is the right guess`); // alert temp lit 
+                    break;
+                 
+            }else if(g < num){ // if g is lower then num then
+                alert(`${g} is to Low ${name}`); // alert temp lit
+                
+            }else if(g > num) // if g is equal to num 
+                alert(`${g} is to high ${name}`); // alert temp lit
+               
+                
+                       
+            }
+        }
+        guessGame;
+
+    </script>
+</body>
+</html>

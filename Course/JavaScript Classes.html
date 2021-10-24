@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Classes</title>
+</head>
+<body>
+    <script>
+
+      class MyClassName { // a class called MyClassName
+          setName(name) { // set name to call it with .setName("Kaida")
+              this.name = name; // this use for whole class
+          }    
+          speak(){ // speak method
+            if(this.name === undefined){ // if this.name is undefined
+                this.name = "Vikky"; // this.name is Vikky
+            }
+              console.log(`Woof Woof says the dog named ${this.name}`); //  log woof woof
+          }
+      }
+      const thing = new MyClassName(); // thing = new MCN
+      thing.setName(); // set name for temp lit
+      thing.speak(); // speak MCN
+
+    </script>
+</body>
+</html>
