@@ -1,0 +1,82 @@
+body{
+    background-image: url(image/nest_bg_1900_mod.jpg);
+    position: absolute;
+    background-repeat: no-repeat;   
+}
+
+.nav_bar{
+    display: flex;
+    background-color: rgb(21, 71, 84);
+    position: absolute;
+    height: 120px;
+    width: 1901px;
+    margin-left: -8px ;
+    margin-top: -9px;    
+}
+
+a.logo{
+    margin-top: 25px;
+    margin-left: 250px;
+ 
+}
+
+
+ul.link_box{
+    display: inline-flex;
+    list-style-type: none;
+    padding-top: 20px;
+    margin-left: 150px;
+    font-size: 25px; 
+}
+
+   
+.link{
+    margin-right: 60px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(196, 129, 48) ;
+}
+
+div.text{
+    margin-top: 250px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    height: 70px;
+    border-color: ;
+    color:rgb(196, 129, 48) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+
+div.rooms{
+    display: inline-flex;
+    margin-left: 300px;
+    margin-top: 20px;
+    padding-right: 30px ;
+}
+
+img{
+    padding-right: 50px;
+    display: flex;
+}
+
+
+
+
+
+div.button{
+   
+    background-color: rgb(21, 71, 84);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 60px;
+    margin-left: 555px;
+    font-size: 30px;
+    width: 145px;
+    
+}
+
+a{
+    color:rgb(196, 129, 48) ;
+    text-decoration: none;
+}

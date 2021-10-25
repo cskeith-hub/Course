@@ -1,0 +1,115 @@
+body{
+    /* border: 1px solid green; */
+    background-color: rgb(255, 255, 255);
+    box-sizing:content-box;
+    width: 1125px;
+    height: 1000px;
+    display: inline-block ;
+}
+
+.top{
+    background-color: rgb(21, 71, 84);
+    /* border: 1px solid red; */
+    display: flex;
+    margin: auto center;
+    box-sizing: border-box;
+    /* logo almost center top */
+    padding-top: 35px;
+    padding-left:160px;
+    
+   
+}
+
+.logo {
+    /* border: 1px dashed rgb(255, 255, 255); */
+    display:flex;
+    opacity: 90%;
+    
+}
+
+.link_box{
+    /* border: 1px dashed rgb(255, 255, 255); */
+    display:inline-flex;
+    padding-left: 200px;
+    margin: 0px 0px 0px 350px ;
+}
+
+ul {
+    
+    /* border: 1px solid rgb(0, 0, 0); */
+    display:inline-flex;
+ 
+    margin: 0px 0px 0px 0px ;
+
+}
+
+li {
+    /* border: 1px solid black; */
+    display: inline-flex;
+    margin: 0px 0px 0px 0px;
+    padding-top: 25px;
+    padding-bottom:10px;
+}
+
+a{
+   text-decoration:none;
+   color: rgb(196, 129, 48);
+}
+
+.link{
+    /* border: 1px solid rgb(235, 14, 14); */
+    padding: 15px 0px 0px 0px;
+    margin: 0px 250px 0px -200px ;
+    font-size: 25px;
+    list-style-type: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+   
+}
+
+.mid{
+    /* border: 1px solid red; */
+    
+    height: 750px;
+    width: 1125px;
+    background-image:url(images/nest_bg_1.jpg);
+    background-repeat: no-repeat;
+    display:flex;
+    box-sizing: border-box;
+    opacity: 80%;
+  
+
+}
+
+.text_box{
+    /* border: 1px solid black; */
+    height: 350px;
+    width: 500px;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 200px;
+    padding-top: 40px;
+    background-color: rgba(21, 71, 84, 70%);
+    
+    
+
+}
+
+li.text1{
+    /* border: 1px solid green; */
+    width: 300px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(226, 155, 68);
+    padding-left: 150px;
+    padding-bottom: 100px;
+    border-top: 50px;
+    background-image: url(images/jacuzz_kamer_300_width.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+ 
+    
+}
+
+
+
