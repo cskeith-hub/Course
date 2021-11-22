@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing HTML with jQuery</title>
+</head>
+<body>
+
+    <div id="customId"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#customId").html("<h1>Hello world <span class='custom-class'>span text</span></h1>"); // .html will make elements
+            $("span").text("Changed!"); // selected the span element and changed the text
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deleting child element</title>
+</head>
+<body>
+     
+    <div id="parent">
+        <strong>Bolded word here</strong>
+        <em>Italicized word here</em>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime repellendus corporis veritatis maiores dicta dolorum quos reiciendis natus cum, voluptates beatae temporibus! Aliquam quam magni adipisci aliquid molestiae? Dolorum, nemo?
+        </p>
+    </div> 
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // jQuery code in here
+           // $("div#parent").empty().html("<h1> Hello World</h1>"); // .empty will remove
+
+           const $parent = $("div#parent"); 
+           //$parent.empty();
+           $parent.html("Stuff in here and there are no child elements")
+
+        })
+    </script>
+</body>
+</html>

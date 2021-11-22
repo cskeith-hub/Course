@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery selectors</title>
+</head>
+<body>
+
+    <h1> Custom title</h1>
+    <button> this is a button</button>
+    <p class="custom-class">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim praesentium itaque modi reiciendis harum! Eos consequuntur harum tempore error optio consequatur fugit suscipit quaerat animi! Ex quam eveniet impedit nisi.
+    </p>
+    <p id="customId">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ab? Eum saepe expedita odio facere corporis et delectus quos dolorem, laboriosam excepturi unde distinctio similique recusandae quam molestias tenetur ab?
+    </p>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() { // select doc when ready function
+            //jQuery code in here
+            $("h1").text("Text changed via jQuery"); // changed h1 text
+            $("p").html("<strong>This is bolded and replaced</strong>"); // select all p
+            $("h1, p").text("Changed on h1 and p"); // select h1 and p elements
+            $("p.custom-class").text("Changed again"); // select p class name
+            $("#customId").text("#customId is changed"); // Id changed
+
+            // selectors is about selecting HTML elements
+
+        });
+    </script>
+</body>
+</html>

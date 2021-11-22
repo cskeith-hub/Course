@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to add html before or after an element</title>
+</head>
+<body>
+    
+    <div id="target">
+        Add HTML before an after this
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script>
+         $(document).ready(function() { 
+        //     $("div#target").before("<h3>Hello world this is a title</h3>") // before   makes the html appear above the element
+        //     $("div#target").after("<p> This is a paragraph</p>") // after makes the html appear under the element
+        
+             // this can also be chained
+
+             $("div#target")
+                            .before("<h3>Hello world this is a title #2</h3>")
+                            .after("<p> This is a paragraph #2</p>")
+
+     
+         })
+    </script>
+</body>
+</html>

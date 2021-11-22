@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery syntax</title>
+</head>
+<body>
+
+    <h1 class="customClassName" id="customId">
+        Hello world
+    </h1>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() { //selecting doc if ready function{}
+            console.log("jQuery is loaded") // log is loaded
+            $("h1.customClassName").text("This was changed via jQuery") // first
+            $("#customId").text("Then this happens") // then this. its changed almost instant
+        })
+    </script>
+</body>
+</html>
