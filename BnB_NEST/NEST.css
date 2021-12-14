@@ -1,0 +1,160 @@
+*{
+    margin: 0%;   
+}
+body{
+    background-color:#154551;
+    color:#b87a40;
+}
+/* nav grid container*/
+.grid-container {
+    border: 2px solid #b87a40;
+    border-left:#46350d ;
+    border-right:#46350d ;
+    border-top: #46350d;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background: rgb(184,122,64);
+    background: radial-gradient(circle, rgba(184,122,64,1) 0%, rgba(30,72,80,1) 4%, rgba(69,85,76,1) 15%, rgba(24,68,77,1) 31%, rgba(22,69,80,1) 50%, rgba(70,53,13,1) 58%, rgba(21,69,81,1) 76%, rgba(70,53,13,1) 87%, rgba(22,69,80,1) 94%, rgba(65,55,20,1) 97%);
+    padding: 10px;
+  }
+/* Brand section */
+.item1{
+    background-color:#154551 ;
+    justify-self: center;
+    border: 2px solid #b87a40;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+}
+/* Menu section */
+.item2{
+    background-color:#154551 ;
+    border: 2px solid #b87a40 ;
+    justify-self: center;
+    align-self: center;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    
+    /*padding-bottom: 9%;*/
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #154551;
+    color: #b87a40;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #154551;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #154551;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #b87a40;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: 1px solid #b87a40;
+    border-radius: 10px;
+    
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #154551}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+.hero{
+    /*border: 1px solid #b87a40;*/
+
+   
+}
+
+.hero_img{
+    display: flex;
+    box-sizing: border-box;
+    max-width: 574px;
+    height: 500px;
+    overflow: hidden;
+    image-rendering: auto;
+    background-image: url(img/nest_bg_1900.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.welcome_text{
+    
+}
+
+
+@media screen and (min-width: 575px) {
+*{
+    margin: 0%;
+}
+body {
+    background-color: lightgreen;
+}
+
+@media screen and (min-width: 576px) {
+*{
+    margin: 0%;
+}
+body {
+    background-color: rgb(216, 116, 116);
+}
+
+@media screen and (min-width: 768px) {  
+*{
+    margin: 0%;
+}
+body {
+    background-color: rgb(51, 78, 104);
+}
+
+@media screen and (min-width: 992px) {
+*{
+    margin: 0%;
+}
+body {
+    background-color: rgb(238, 144, 183);
+}
+
+@media screen and (min-width: 1200px) {
+*{
+    margin: 0%;
+}
+body {
+    background-color: rgb(117, 121, 84);
+}
+
+@media screen and (min-width: 1400px) {
+*{
+    margin: 0%;
+}
+body {
+    background-color: rgb(1, 19, 1);
+}
+

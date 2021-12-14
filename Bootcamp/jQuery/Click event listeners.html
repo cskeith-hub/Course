@@ -7,10 +7,25 @@
     <title>Click event listeners</title>
 </head>
 <body>
+
+    <button>Click me</button>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
-            // jQuery code in here
+         // jQuery code in here
+         //   $("button").click(function(){
+         //       console.log("I am clicked!")
+         //   })
+             
+         // $("button").on("click", function(){
+         //    console.log("This is clickable too!")
+         // })
+
+            $(document).on("click", "button", function(){
+                console.log("I have a click")
+            })
+         
         })
     </script>
 </body>
